@@ -5,10 +5,10 @@
 }
 
 body {
-    /* background-image: url(https://media.istockphoto.com/id/1345203265/photo/cement-shelf-and-floor-on-concrete-background-for-design.jpg?s=612x612&w=0&k=20&c=hP8dToAnW6Ac8eQ5Q8Yb9sQtS-7bk0vy42f03bgRXkg=); */
-    background-repeat: no-repeat;
-    background-size: 100% 730px;
-    background-color: rgb(127, 96, 156);
+
+    /* background-repeat: no-repeat;
+    background-size: 100% 730px; */
+    background-color: rgb(114, 86, 140);
 
 
 }
@@ -16,7 +16,7 @@ body {
 .container {
     /* background-color: rgb(87, 68, 106); */
     border: solid 2px black;
-    height: 710px;
+    height: auto;
 
 }
 
@@ -73,6 +73,15 @@ body {
 
 .biographies ul {
     margin-left: 50px;
+}
+
+.career {
+    margin: 20px;
+    text-align: justify;
+}
+
+.career p {
+    margin: 10px;
 }
 
 footer {
