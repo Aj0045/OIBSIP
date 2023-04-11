@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    /* text-decoration: none; */
+    /* color: black; */
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    width: 90%;
+    /* border: 2px solid red; */
+
+}
+
+/* Header =========================== */
+header {
+    height: 5rem;
+    background-color: aquamarine;
+}
+
+.header-nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+}
+
+/* My Work ============================= */
+.my-work {
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.my-task li {
+    margin-top: 1rem;
+}
