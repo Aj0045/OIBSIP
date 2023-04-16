@@ -7,46 +7,54 @@
 
 body {
     width: 100%;
-    height: 100px;
-    background-color: blue;
-    background: linear-gradient(149deg,rgb(31, 19, 201), rgb(172, 16, 189));
+    height: 200vh;
+    background: #26d9f5;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(120deg, rgb(57, 192, 245), rgb(250, 16, 250));
 
+}
+
+.name {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
 .container {
     position: relative;
     max-width: 800px;
     padding: 10px;
-    margin: 0 auto;
-
+    margin: 50px auto;
 }
 
 .addTask {
     width: 100%;
     display: flex;
-    padding: 10px 0;
+    padding: 10px 20px;
+    font-size: 5px;
 
 }
 
 .addTask>input[type="text"] {
-    width: 90%;
-    color: rgb(7, 7, 7);
-    border: none;
-    border-bottom: 2px solid rgb(170, 167, 166);
+    width: 80%;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    border-style: groove;
+    border-bottom: 3px solid rgb(244, 246, 247);
     background: none;
-    padding: 10px;
-    font-size: 22px;
+    padding: 15px;
+    font-size: 30px;
     outline: none;
 
 }
 
 .addTask button {
     margin: 0 10px;
-    background: rgb(225, 225, 49);
-    color: rgb(11, 100, 101);
-    font-size: 18px;
+    background: rgb(188, 233, 28);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 20px;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -61,10 +69,11 @@ body {
 }
 
 h3 {
-    font-size: 28px;
     text-transform: uppercase;
     text-align: center;
     color: rgb(239, 245, 245);
+    font-size: 30px;
+    background-color: rgba(78, 26, 121, 0.514);
 }
 
 ol {
@@ -77,19 +86,20 @@ ol li {
     width: 100%;
     padding: 18px;
     margin: 5px 0;
-    background-color: rgb(223, 92, 45);
-    font-size: 22px;
+    background-color: rgb(206, 178, 168);
+    font-size: 28px;
+    text-transform: uppercase;
     counter-increment: my-counter;
 
 }
 
 ol.Completed li {
-    background: #29b30e;
+    background: #30db0d;
 }
 
 ol li::before {
     content: counter(my-counter);
-    background : rgb(38, 7, 45);
+    background: rgb(115, 31, 226);
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
@@ -106,7 +116,7 @@ li button {
     font-size: 28px;
     line-height: 28px;
     margin-right: 15px;
-    background: white;
+    background: rgb(255, 255, 255);
     border: 1px solid black;
     outline: none;
     cursor: pointer;

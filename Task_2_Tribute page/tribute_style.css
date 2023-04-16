@@ -15,14 +15,18 @@ body {
 
 .container {
     /* background-color: rgb(87, 68, 106); */
-    border: solid 2px black;
+    border: none;
     height: auto;
+    margin: 10px;
+
 
 }
 
 .contant {
     max-width: 100px;
-    margin: 0;
+    margin: 20px;
+
+
 }
 
 .top_selection {
@@ -34,6 +38,7 @@ body {
 .image {
     width: 100%;
     margin-top: 10px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,29 +52,46 @@ body {
 
 .top h1 {
     margin-top: 10px;
+    font-size: 4rem;
 }
 
 .about {
     margin: 30px;
+    display: inline;
 
 }
 
 .about p {
     text-align: justify;
+    margin: 10px 20px;
+    font-size: large;
+    width: 70%;
 }
 
 .about h2 {
     margin-bottom: 10px;
+    padding: 20px;
+    font-size: 2rem;
 }
 
 .biographies {
     margin: 20px;
     margin-bottom: 20px;
+    text-align: justify;
+    width: 70%;
+    font-size: large;
+
 }
-.missileman{
-    height: 100px;
-    width: 100px;
-    
+
+.missileman img {
+    width: 350px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 0px 20px 80px 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    float: right;
 }
 
 .biographies h3 {
@@ -87,13 +109,40 @@ body {
 
 .career p {
     margin: 10px;
-    text-size-adjust: 10px;
+    text-size-adjust: 1000px;
+    font-size: large;
+}
+
+.presidency {
+    margin: 20px;
+
+}
+
+.presidency p {
+    margin: 20px;
+    text-align: justify;
+    font-size: large;
+}
+
+.president img {
+    width: 500px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    float: right;
+
+
 }
 
 footer {
-    margin: 50px 0;
+    margin: 50px 10px;
 }
 
 footer p {
     text-align: end;
+    font-size: large;
+
 }
